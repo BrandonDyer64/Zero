@@ -1,0 +1,25 @@
+/* Add a black background color to the top navigation */
+.navbar {
+  padding: 0 1rem !important;
+  min-height: 3rem;
+}
+
+.navbar-brand {
+  padding: 14px inherit;
+}
+
+/* Style the links inside the navigation bar */
+.navbar .nav-link {
+  float: left;
+  display: block;
+  padding: 14px 20px;
+  border-bottom: 3px solid transparent;
+}
+
+.navbar .nav-link:hover {
+  border-bottom: 3px solid var(--primary);
+}
+
+.navbar .nav-link.active {
+  border-bottom: 3px solid var(--secondary);
+}
