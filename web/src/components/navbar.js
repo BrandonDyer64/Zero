@@ -4,7 +4,7 @@ import config from '../config.json'
 class Component extends React.Component {
   render() {
     return (
-      <nav className="navbar navbar-expand-md bg-dark navbar-dark">
+      <nav className="navbar navbar-expand-sm bg-dark navbar-dark">
         <a className="navbar-brand" href="#">
           {config.name}
         </a>
@@ -21,18 +21,18 @@ class Component extends React.Component {
         <div className="collapse navbar-collapse" id="collapsibleNavbar">
           <ul className="navbar-nav">
             <li className="nav-item">
-              <a className="nav-link" href="#">
-                Link
+              <a className="nav-link" href="/tables">
+                Tables
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
-                Link
+              <a className="nav-link" href="/list/siteuser">
+                Siteusers
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
-                Link
+              <a className="nav-link" href="/list/appuser">
+                Appusers
               </a>
             </li>
           </ul>
