@@ -6,6 +6,7 @@ import { BrowserRouter as Router } from 'react-router-dom'
 import Routes from './routes'
 
 import Navbar from './components/navbar'
+import Ad from './components/ad'
 
 var config = require('./config.json')
 require('./style/themes/' + config.theme + '.css')
@@ -18,6 +19,9 @@ class App extends Component {
           <Navbar />
           <div className="container-fluid">
             <Routes />
+          </div>
+          <div className="container">
+            <Ad />
           </div>
         </div>
       </Router>
